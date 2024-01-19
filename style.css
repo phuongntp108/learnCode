@@ -1,0 +1,275 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+  font-size: 15px;
+}
+
+#header {
+  background-color: black;
+  width: 100%;
+  color: white;
+  position: fixed;
+  display: flex;
+  top: 0;
+  line-height: 1.2;
+  height: 46px;
+}
+
+.whiteColor {
+  color: white;
+  padding: 15px 23px;
+  font-size: 15px;
+}
+
+.whiteColor:hover {
+  background-color: #CCCCCC;
+  color: black;
+  cursor: pointer;
+}
+
+#banner {
+  background: url("https://khoinguyen002.github.io/Product/TheBand/asset/chicago.jpg");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 46px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding-top: 50%;
+  padding-bottom: 40px;
+}
+
+.text {
+  padding-bottom: 20px;
+}
+
+#about-us {
+  text-align: center;
+}
+
+#about-us h1 {
+  font-weight: 500;
+}
+
+.slogan {
+  text-align: center;
+  color: #000000;
+  font-style: italic;
+  opacity: 0.5;
+  margin: 15px 0;
+}
+
+.slogan-white {
+  text-align: center;
+  color: white;
+  font-style: italic;
+  opacity: 0.5;
+  margin: 15px 0;
+}
+
+.slogan-left {
+  text-align: left;
+  color: #000000;
+  opacity: 0.5;
+  margin: 15px 0;
+}
+
+.content {
+  text-align: justify;
+  font-weight: 200;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.container {
+  max-width: 55%;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.group {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 44px;
+}
+
+.picture-edit {
+  width: 150px;
+  border-radius: 5%;
+  margin-top: 20px;
+}
+
+#tour-date {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 900px;
+}
+
+#tour-date h1 {
+  font-weight: 300;
+}
+
+.tour-date-ticket-months {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  font-size: 15px;
+  background: white;
+  color: black;
+  line-height: 1;
+  border: 0.1px solid black;
+
+}
+
+.tour-date-ticket-month {
+  text-align: left;
+  padding: 8px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.tag-sold-out {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+}
+
+.number-inline-circle-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.number-inline-circle {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  color: white;
+  background-color: black;
+  padding: 4px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.tour-date-imgs {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tour-date-img {
+  flex: 1;
+}
+
+
+.img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.content-img {
+  text-align: left;
+  padding: 20px 15px;
+  color: black;
+  line-height: 1.5;
+  background-color: white;
+}
+
+.content-img>p:first-child {
+  font-weight: bolder;
+}
+
+.buy-ticket {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  margin-top: 20px;
+}
+
+.buy-ticket:hover,
+.number-inline-circle:hover {
+  background-color: #CCC;
+  color: black;
+  cursor: pointer;
+}
+
+#contact h1 {
+  font-weight: 300;
+  text-align: center;
+}
+
+.contact-content-box {
+  display: flex;
+}
+
+.contact-content {
+  width: 50%;
+}
+
+.contact-box {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+
+
+.input-container input {
+  border: thin solid #d9d9d9;
+  padding: 8px;
+}
+
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.input-container input:not(:last-child) {
+  flex: 1;
+}
+
+.input-container input:last-child {
+  width: 100%;
+}
+
+.send {
+  display: inline-block;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.send:hover {
+  display: inline-block;
+  text-align: center;
+  background-color: #CCC;
+  color: black;
+  padding: 8px 16px;
+  margin-top: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
